@@ -39,7 +39,7 @@ describe('Component CurrencyForm', () => {
     // check if action callback was called once
     expect(action).toHaveBeenCalledTimes(1);
     expect(action).toHaveBeenCalledWith({ 
-      amount: parseInt(testObj.amount), 
+      amount: parseInt(testObj.amount),
       from: testObj.from, 
       to: testObj.to });
     
